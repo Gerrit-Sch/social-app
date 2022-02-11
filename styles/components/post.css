@@ -1,0 +1,45 @@
+.post {
+  display: flex;
+  position: relative;
+}
+
+.post__profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.post__name {
+  font-size: 0.5rem;
+  white-space: nowrap;
+}
+
+.post__time {
+  font-size: 0.5rem;
+  white-space: nowrap;
+  position: absolute;
+
+  bottom: 2px;
+  left: 30px;
+}
+
+.post__menu-icon {
+  position: absolute;
+  right: 0px;
+}
+
+.post__reactions_nav {
+  display: flex;
+  gap: 25px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.post__reactions--icons {
+  font-size: 0.5rem;
+}
+
+.post__reactions--bookmark {
+  position: absolute;
+  right: 0px;
+}

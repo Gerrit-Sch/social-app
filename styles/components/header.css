@@ -1,11 +1,15 @@
 .header {
   height: 44px;
-  background-color: turquoise;
+  background-color: black;
   display: flex;
   justify-content: flex-end;
   position: relative;
   align-items: center;
   gap: 10px;
+}
+
+.header__fix {
+  position: fixed;
 }
 
 .header__clock {
