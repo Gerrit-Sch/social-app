@@ -1,9 +1,9 @@
 @import "/components/base.css";
 
-@import "/components/header.css";
-@import "/components/main.css";
-@import "/components/greeting.css";
-@import "/components/newsfeed.css";
-@import "/components/post.css";
-@import "/components/buttons.css";
-@import "/components/footer.css";
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/greeting.css";
+@import "./components/newsfeed.css";
+@import "./components/post.css";
+@import "./components/buttons.css";
+@import "./components/footer.css";

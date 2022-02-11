@@ -1,0 +1,35 @@
+.header {
+  height: 44px;
+  background-color: turquoise;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__clock {
+  position: absolute;
+  left: 21px;
+}
+
+/* in case we need to determine distance individually
+header__network {
+    position: absolute;
+    left: 336px;
+   
+  }
+
+  header__wifi {
+    position: absolute;
+    left: 316px;
+   
+  }
+
+  header__battery {
+    position: absolute;
+    right: 21px;
+   
+  }
+
+ */
