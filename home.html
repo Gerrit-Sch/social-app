@@ -4,66 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
     <title>Document</title>
 </head>
 <body>       
-    <header>
-        <section class="header">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </section>
+    <header class="header">
+    
+        <span class ="header__clock"> 9:41 </span>
+            <img class="header__network" src="" alt="network">
+            <img class="header__wifi" src="" alt="wifi">
+            <img class="header__battery" src="" alt="battery">
         </header>
         <main>
             <section class="greeting">
                 <h1 class="greeting__title">Good Morning, Alex.</h1>
-                <button class="greeting__button">
+
+                <button class="greeting__button" aria-label="button">
                     <!--message button-->
                 </button>
             </section>
             <section class="newsfeed">
-                <div class="newsfeed__image"
-                ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-                <img class="newsfeed__profile"src="" alt="user-image">
+                <div class="newsfeed__element">
+                <img class="newsfeed__image" src="https://source.unsplash.com/random/200x200?sig=1" alt="newsfeed-image" >
+                <img class="newsfeed__profile"src="https://source.unsplash.com/random/200x200?sig=1" alt="user-image">
             </div>
-            <div class="newsfeed__image"
-            ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-            <img class="newsfeed__profile" src="" alt="user-image">
+            <div class="newsfeed__element">
+            <img class="newsfeed__image"src="https://source.unsplash.com/random/200x200?sig=1" alt="newsfeed-image" >
+            <img class="newsfeed__profile" src="https://source.unsplash.com/random/200x200?sig=1" alt="user-image">
         </div>
-        <div class="newsfeed__image"
-        ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-        <img class="newsfeed__profile" src="" alt="user-image">
-    </div>
-    <div class="newsfeed__element"
-    ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-    <img class="newsfeed__profile" src="" alt="user-image">
-    </div>
+        <div class="newsfeed__element">
+        <img class="newsfeed__image" src="https://source.unsplash.com/random/200x200?sig=1" alt="newsfeed-image" >
+        <img class="newsfeed__profile" src="https://source.unsplash.com/random/200x200?sig=1" alt="user-image">
+    
+    </section>
+
+
             <section class="post">
-                <img class="post__profile" src="" alt="profile-picture">
-                <h2 class="post__name">username</h2>
-                <p class="post__time">20 min ago</p>
+               <img class="post__profile" src="https://source.unsplash.com/random/200x200?sig=1" alt="profile-picture">
+                <h2 class="post__name">Jacob Washington</h2>
+                <span class="post__time">20 min ago</span> 
+                <img class="post__menu-icon" src="" alt="..."> 
+            </section>
+
                 <p class="post__text">Dalai Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                <section class="post__reactions">
-                    <div class="reactions__likes">
-                        <img src="" alt="">
+
+                <!--aria label-->
+                
+                <section class="post__reactions_nav">
+                    <div class="post__reactions--icons">
+                        <img src="" alt="icon">
                         <span>2,245</span>
                     </div>
-                    <div class="reactions__comments">
-                        <img src="" alt="">
-                        <span>2,245</span>
+                    <div class="post__reactions--icons">
+                        <img src="" alt="icon">
+                        <span>45</span>
                     </div>
-                    <div class="reactions__shares">
+                    <div class="post__reactions--icons">
                         <img src="" alt="">
-                        <span>2,245</span>
+                        <span>124</span>
                     </div>
-                    <div class="reactions__bookmark">
+                    <div class="post__reactions--bookmark">
                         <img src="" alt="bookmark">
+                        <span></span>
+
+                </section>           
+                <br>
+                <br>
+                <br>
+                   
+
                     </div>
                 </section>
                 <section class="post">
-                    <img class="post__profile" src="" alt="profile-picture">
+                    <img class="post__profile" src="https://source.unsplash.com/random/200x200?sig=1" alt="profile-picture">
                     <h2 class="post__name">username</h2>
                     <p class="post__time">20 min ago</p>
                     <p class="post__text">Venice Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -157,11 +171,11 @@
                             </main>
         <footer>
             <nav class="navigation">
-                <a class="navigation__links" href="home.html">a<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="search.html">b<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="newpost.html">c<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="profile.html">c<img src="./icons/#" alt=""></a>                
-            <a class="navigation__links" href="profile.html">c<img src="./icons/#" alt=""></a>
+                <a class="navigation__links" href="home.html">a<img src="./icons/icon-feed.png" alt=""></a>
+                <a class="navigation__links" href="search.html">b<img src="./icons/icon-search.png" alt=""></a>
+                <a class="navigation__links" href="newpost.html">c<img src="./icons/icon-plus.png" alt=""></a>
+                <a class="navigation__links" href="profile.html">c<img src="./icons/icon-alert.png" alt=""></a>                
+            <a class="navigation__links" href="profile.html">c<img src="./icons/icon-profile.png" alt=""></a>
             </nav>
         </footer>
     </body>
