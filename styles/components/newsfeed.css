@@ -1,0 +1,27 @@
+.newsfeed {
+  display: flex;
+  gap: 12px;
+}
+
+.newsfeed__image {
+  width: 100px;
+  height: 140px;
+  border-radius: 16px;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 91.43%
+    ),
+    url(.jpg);
+}
+
+.newsfeed__profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: hotpink solid;
+  position: relative;
+  bottom: 55px;
+  left: 30px;
+}

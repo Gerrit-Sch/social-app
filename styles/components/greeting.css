@@ -1,0 +1,11 @@
+.greeting {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.greeting__button {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
