@@ -1,168 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>       
-    <header>
-        <section class="header">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </section>
-        </header>
-        <main>
-            <section class="greeting">
-                <h1 class="greeting__title">Good Morning, Alex.</h1>
-                <button class="greeting__button">
-                    <!--message button-->
-                </button>
-            </section>
-            <section class="newsfeed">
-                <div class="newsfeed__image"
-                ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-                <img class="newsfeed__profile"src="" alt="user-image">
-            </div>
-            <div class="newsfeed__image"
-            ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-            <img class="newsfeed__profile" src="" alt="user-image">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <span class="header__clock">9:41</span>
+      <img
+        class="header__network"
+        src="./icons/icon-network.svg"
+        alt="network"
+      />
+      <img class="header__wifi" src="./icons/icon-wifi.svg" alt="wifi" />
+      <img
+        class="header__battery"
+        src="./icons/icon-battery.svg"
+        alt="battery"
+      />
+    </header>
+
+    <main>
+      <article class="greeting">
+        <h1 class="greeting__title">Good Morning, Alex.</h1>
+        <button class="greeting__button" aria-label="button">
+          <a href="#"><img src="./icons/icon-message.png" alt="message" /></a>
+        </button>
+      </article>
+
+      <article class="newsfeed">
+        <div class="newsfeed__element">
+          <img
+            class="newsfeed__image"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="newsfeed-image"
+          />
+          <img
+            class="newsfeed__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="user-image"
+          />
         </div>
-        <div class="newsfeed__image"
-        ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-        <img class="newsfeed__profile" src="" alt="user-image">
-    </div>
-    <div class="newsfeed__element"
-    ><a class="newsfeed__image" href=""><img src="" alt="newsfeed-image"></a>
-    <img class="newsfeed__profile" src="" alt="user-image">
-    </div>
-            <section class="post">
-                <img class="post__profile" src="" alt="profile-picture">
-                <h2 class="post__name">username</h2>
-                <p class="post__time">20 min ago</p>
-                <p class="post__text">Dalai Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                <section class="post__reactions">
-                    <div class="reactions__likes">
-                        <img src="" alt="">
-                        <span>2,245</span>
-                    </div>
-                    <div class="reactions__comments">
-                        <img src="" alt="">
-                        <span>2,245</span>
-                    </div>
-                    <div class="reactions__shares">
-                        <img src="" alt="">
-                        <span>2,245</span>
-                    </div>
-                    <div class="reactions__bookmark">
-                        <img src="" alt="bookmark">
-                    </div>
-                </section>
-                <section class="post">
-                    <img class="post__profile" src="" alt="profile-picture">
-                    <h2 class="post__name">username</h2>
-                    <p class="post__time">20 min ago</p>
-                    <p class="post__text">Venice Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                    <section class="post__reactions">
-                        <div class="reactions__likes">
-                            <img src="" alt="">
-                            <span>2,245</span>
-                        </div>
-                        <div class="reactions__comments">
-                            <img src="" alt="">
-                            <span>2,245</span>
-                        </div>
-                        <div class="reactions__shares">
-                            <img src="" alt="">
-                            <span>2,245</span>
-                        </div>
-                        <div class="reactions__bookmark">
-                            <img src="" alt="bookmark">
-                        </div>
-                    </section>
-                    <section class="post">
-                        <img class="post__profile" src="" alt="profile-picture">
-                        <h2 class="post__name">username</h2>
-                        <p class="post__time">20 min ago</p>
-                        <p class="post__text">Coding Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                        <section class="post__reactions">
-                            <div class="reactions__likes">
-                                <img src="" alt="">
-                                <span>2,245</span>
-                            </div>
-                            <div class="reactions__comments">
-                                <img src="" alt="">
-                                <span>2,245</span>
-                            </div>
-                            <div class="reactions__shares">
-                                <img src="" alt="">
-                                <span>2,245</span>
-                            </div>
-                            <div class="reactions__bookmark">
-                                <img src="" alt="bookmark">
-                            </div>
-                        </section>
-                        <section class="post">
-                            <img class="post__profile" src="" alt="profile-picture">
-                            <h2 class="post__name">username</h2>
-                            <p class="post__time">20 min ago</p>
-                            <p class="post__text">Pineapple Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                            <section class="post__reactions">
-                                <div class="reactions__likes">
-                                    <img src="" alt="">
-                                    <span>2,245</span>
-                                </div>
-                                <div class="reactions__comments">
-                                    <img src="" alt="">
-                                    <span>2,245</span>
-                                </div>
-                                <div class="reactions__shares">
-                                    <img src="" alt="">
-                                    <span>2,245</span>
-                                </div>
-                                <div class="reactions__bookmark">
-                                    <img src="" alt="bookmark">
-                                </div>
-                            </section>
-                            <section class="post">
-                                <img class="post__profile" src="" alt="profile-picture">
-                                <h2 class="post__name">username</h2>
-                                <p class="post__time">20 min ago</p>
-                                <p class="post__text">Drawing Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <img class="post__menu-icon" src="" alt="menu-icon"> <!--aria label-->
-                                <section class="post__reactions">
-                                    <div class="reactions__likes">
-                                        <img src="" alt="">
-                                        <span>2,245</span>
-                                    </div>
-                                    <div class="reactions__comments">
-                                        <img src="" alt="">
-                                        <span>2,245</span>
-                                    </div>
-                                    <div class="reactions__shares">
-                                        <img src="" alt="">
-                                        <span>2,245</span>
-                                    </div>
-                                    <div class="reactions__bookmark">
-                                        <img src="" alt="bookmark">
-                                    </div>
-                                </section>
-                            </main>
-        <footer>
-            <nav class="navigation">
-                <a class="navigation__links" href="home.html">a<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="search.html">b<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="newpost.html">c<img src="./icons/#" alt=""></a>
-                <a class="navigation__links" href="profile.html">c<img src="./icons/#" alt=""></a>                
-            <a class="navigation__links" href="profile.html">c<img src="./icons/#" alt=""></a>
-            </nav>
-        </footer>
-    </body>
-    </html>
+        <div class="newsfeed__element">
+          <img
+            class="newsfeed__image"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="newsfeed-image"
+          />
+          <img
+            class="newsfeed__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="user-image"
+          />
+        </div>
+        <div class="newsfeed__element">
+          <img
+            class="newsfeed__image"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="newsfeed-image"
+          />
+          <img
+            class="newsfeed__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="user-image"
+          />
+        </div>
+      </article>
+
+      <article>
+        <section class="post">
+          <img
+            class="post__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="profile-picture"
+          />
+          <h2 class="post__name">Jacob Washington</h2>
+          <span class="post__time">20min ago</span>
+          <img
+            class="post__menu-icon"
+            src="./icons/icon-burger.png"
+            alt="menu-icon"
+          />
+        </section>
+        <section class="post__content">
+          <p class="post__text">
+            "If you think you are too small to make a difference, try sleeping
+            with a mosquito." ~ Dalai Lama
+          </p>
+        </section>
+        <section class="post__reactions_nav">
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-like.png" alt="like" />
+            <span>2,245</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-comment.png" alt="comment" />
+            <span>45</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-share.png" alt="share" />
+            <span>124</span>
+          </div>
+          <div class="post__reactions--bookmark">
+            <img src="./icons/icon-bookmark.png" alt="bookmark" />
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="post">
+          <img
+            class="post__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="profile-picture"
+          />
+          <h2 class="post__name">Kat Williams</h2>
+          <span class="post__time">1h ago ago</span>
+          <img
+            class="post__menu-icon"
+            src="./icons/icon-burger.png"
+            alt="menu-icon"
+          />
+        </section>
+        <section class="post__content">
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="Venice"
+          />
+        </section>
+        <section class="post__reactions_nav">
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-like.png" alt="like" />
+            <span>2,245</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-comment.png" alt="comment" />
+            <span>45</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-share.png" alt="share" />
+            <span>124</span>
+          </div>
+          <div class="post__reactions--bookmark">
+            <img src="./icons/icon-bookmark.png" alt="bookmark" />
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="post">
+          <img
+            class="post__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="profile-picture"
+          />
+          <h2 class="post__name">Tony Monta</h2>
+          <span class="post__time">1h ago</span>
+          <img
+            class="post__menu-icon"
+            src="./icons/icon-burger.png"
+            alt="menu-icon"
+          />
+        </section>
+        <section class="post__content">
+          <p class="post__text">Writing code is not so bad!</p>
+        </section>
+        <section class="post__reactions_nav">
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-like.png" alt="like" />
+            <span>2,245</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-comment.png" alt="comment" />
+            <span>45</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-share.png" alt="share" />
+            <span>124</span>
+          </div>
+          <div class="post__reactions--bookmark">
+            <img src="./icons/icon-bookmark.png" alt="bookmark" />
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="post">
+          <img
+            class="post__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="profile-picture"
+          />
+          <h2 class="post__name">Jessica Thompson</h2>
+          <span class="post__time">2h ago ago</span>
+          <img
+            class="post__menu-icon"
+            src="./icons/icon-burger.png"
+            alt="menu-icon"
+          />
+        </section>
+        <section class="post__content">
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="Venice"
+          />
+        </section>
+        <section class="post__reactions_nav">
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-like.png" alt="like" />
+            <span>2,245</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-comment.png" alt="comment" />
+            <span>45</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-share.png" alt="share" />
+            <span>124</span>
+          </div>
+          <div class="post__reactions--bookmark">
+            <img src="./icons/icon-bookmark.png" alt="bookmark" />
+          </div>
+        </section>
+      </article>
+
+      <article>
+        <section class="post">
+          <img
+            class="post__profile"
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="profile-picture"
+          />
+          <h2 class="post__name">Dustin Grant</h2>
+          <span class="post__time">3h ago ago</span>
+          <img
+            class="post__menu-icon"
+            src="./icons/icon-burger.png"
+            alt="menu-icon"
+          />
+        </section>
+        <section class="post__content">
+          <img
+            src="https://source.unsplash.com/random/200x200?sig=1"
+            alt="Drawing"
+          />
+        </section>
+        <section class="post__reactions_nav">
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-like.png" alt="like" />
+            <span>2,245</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-comment.png" alt="comment" />
+            <span>45</span>
+          </div>
+          <div class="post__reactions--icons">
+            <img src="./icons/icon-share.png" alt="share" />
+            <span>124</span>
+          </div>
+          <div class="post__reactions--bookmark">
+            <img src="./icons/icon-bookmark.png" alt="bookmark" />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <nav class="navigation">
+        <a class="navigation__links" href="home.html"
+          >1<img src="./icons/icon-feed.png" alt="Home"
+        /></a>
+        <a class="navigation__links" href="search.html"
+          >2<img src="./icons/icon-search.png" alt="Search"
+        /></a>
+        <a class="navigation__links" href="newpost.html"
+          >3<img src="./icons/icon-plus.png" alt="Newpost"
+        /></a>
+        <a class="navigation__links" href="alerts.html"
+          >4<img src="./icons/icon-alert.png" alt="Alerts"
+        /></a>
+        <a class="navigation__links" href="profile.html"
+          >5<img src="./icons/icon-profile.png" alt="Profile"
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
