@@ -1,11 +1,11 @@
 .greeting {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  padding: 15px 20px 20px 20px;
 }
 
-.greeting__button {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+.greeting__title {
+  font-weight: 400;
+  font-size: large;
 }

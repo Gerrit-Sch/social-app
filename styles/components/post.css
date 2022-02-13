@@ -1,5 +1,11 @@
+.card {
+  border-bottom: solid #323436 1px;
+  padding: 20px;
+}
+
 .post {
   display: flex;
+
   position: relative;
 }
 
@@ -10,22 +16,35 @@
 }
 
 .post__name {
-  font-size: 0.5rem;
-  white-space: nowrap;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #ecebed;
+  position: absolute;
+  left: 40px;
+  top: -11px;
 }
 
 .post__time {
-  font-size: 0.5rem;
-  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 200;
+  color: #727477;
+  line-height: 16px;
   position: absolute;
+  left: 40px;
+  top: 19px;
+}
 
-  bottom: 2px;
-  left: 30px;
+.post__text {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .post__menu-icon {
   position: absolute;
-  right: 0px;
+  right: 15px;
+  top: 10px;
 }
 
 .post__reactions_nav {
@@ -36,10 +55,23 @@
 }
 
 .post__reactions--icons {
-  font-size: 0.5rem;
+  font-size: 12px;
+  font-weight: 300;
+  }
+
+.post__reactions--counter {
+  padding-left: 5px;
 }
 
 .post__reactions--bookmark {
   position: absolute;
-  right: 0px;
+  right: 10px;
+}
+
+.post__content__image {
+  width: 327px;
+  height: 180px;
+  border-radius: 16px;
+  overflow-x: scroll;
+  margin: 20px 0 15px 0;
 }

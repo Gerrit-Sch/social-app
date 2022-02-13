@@ -1,19 +1,26 @@
 .newsfeed {
   display: flex;
-  gap: 12px;
+  justify-content: space-around;
+  border-bottom: solid #323436 1px;
+}
+
+.newsfeed__element {
+  position: relative;
+  height: 160px;
+  padding-left: 10px;
 }
 
 .newsfeed__image {
   width: 100px;
   height: 140px;
   border-radius: 16px;
-  position: relative;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.6) 91.43%
     ),
     url(.jpg);
+  position: relative;
 }
 
 .newsfeed__profile {
