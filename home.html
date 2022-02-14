@@ -11,25 +11,15 @@
   <body>
     <header class="header">
       <span class="header__clock">9:41</span>
-      <img
-        class="header__network"
-        src="./icons/icon-network.svg"
-        alt="network"
-      />
-      <img class="header__wifi" src="./icons/icon-wifi.svg" alt="wifi" />
-      <img
-        class="header__battery"
-        src="./icons/icon-battery.svg"
-        alt="battery"
-      />
+      <img class="header__icon" src="./icons/icon-network.svg" alt="network" />
+      <img class="header__icon" src="./icons/icon-wifi.svg" alt="wifi" />
+      <img class="header__icon" src="./icons/icon-battery.svg" alt="battery" />
     </header>
 
     <main>
       <article class="greeting">
         <h1 class="greeting__title">Good Morning, Alex.</h1>
-        <button class="greeting__button" aria-label="button">
-          <a href="#"><img src="./icons/icon-message.png" alt="message" /></a>
-        </button>
+        <img src="./icons/icon-message.png" alt="message" />
       </article>
 
       <article class="newsfeed">
@@ -41,7 +31,7 @@
           />
           <img
             class="newsfeed__profile"
-            src="https://source.unsplash.com/random/200x200?sig=1"
+            src="./images/woman1.png"
             alt="user-image"
           />
         </div>
@@ -53,7 +43,7 @@
           />
           <img
             class="newsfeed__profile"
-            src="https://source.unsplash.com/random/200x200?sig=1"
+            src="./images/man1.png"
             alt="user-image"
           />
         </div>
@@ -65,13 +55,14 @@
           />
           <img
             class="newsfeed__profile"
-            src="https://source.unsplash.com/random/200x200?sig=1"
+            src="./images/woman2.png"
             alt="user-image"
           />
         </div>
+        <div class="devider"></div>
       </article>
 
-      <article>
+      <article class="card">
         <section class="post">
           <img
             class="post__profile"
@@ -95,23 +86,24 @@
         <section class="post__reactions_nav">
           <div class="post__reactions--icons">
             <img src="./icons/icon-like.png" alt="like" />
-            <span>2,245</span>
+            <span class="post__reactions--counter">2,245</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-comment.png" alt="comment" />
-            <span>45</span>
+            <span class="post__reactions--counter">45</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-share.png" alt="share" />
-            <span>124</span>
+            <span class="post__reactions--counter">124</span>
           </div>
           <div class="post__reactions--bookmark">
             <img src="./icons/icon-bookmark.png" alt="bookmark" />
           </div>
         </section>
+        <div class="devider"></div>
       </article>
 
-      <article>
+      <article class="card">
         <section class="post">
           <img
             class="post__profile"
@@ -119,7 +111,7 @@
             alt="profile-picture"
           />
           <h2 class="post__name">Kat Williams</h2>
-          <span class="post__time">1h ago ago</span>
+          <span class="post__time">1h ago</span>
           <img
             class="post__menu-icon"
             src="./icons/icon-burger.png"
@@ -128,6 +120,7 @@
         </section>
         <section class="post__content">
           <img
+            class="post__content__image"
             src="https://source.unsplash.com/random/200x200?sig=1"
             alt="Venice"
           />
@@ -135,23 +128,24 @@
         <section class="post__reactions_nav">
           <div class="post__reactions--icons">
             <img src="./icons/icon-like.png" alt="like" />
-            <span>2,245</span>
+            <span class="post__reactions--counter">2,245</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-comment.png" alt="comment" />
-            <span>45</span>
+            <span class="post__reactions--counter">45</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-share.png" alt="share" />
-            <span>124</span>
+            <span class="post__reactions--counter">124</span>
           </div>
           <div class="post__reactions--bookmark">
             <img src="./icons/icon-bookmark.png" alt="bookmark" />
           </div>
         </section>
+        <div class="devider"></div>
       </article>
 
-      <article>
+      <article class="card">
         <section class="post">
           <img
             class="post__profile"
@@ -172,23 +166,24 @@
         <section class="post__reactions_nav">
           <div class="post__reactions--icons">
             <img src="./icons/icon-like.png" alt="like" />
-            <span>2,245</span>
+            <span class="post__reactions--counter">2,245</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-comment.png" alt="comment" />
-            <span>45</span>
+            <span class="post__reactions--counter">45</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-share.png" alt="share" />
-            <span>124</span>
+            <span class="post__reactions--counter">124</span>
           </div>
           <div class="post__reactions--bookmark">
             <img src="./icons/icon-bookmark.png" alt="bookmark" />
           </div>
         </section>
+        <div class="devider"></div>
       </article>
 
-      <article>
+      <article class="card">
         <section class="post">
           <img
             class="post__profile"
@@ -196,7 +191,7 @@
             alt="profile-picture"
           />
           <h2 class="post__name">Jessica Thompson</h2>
-          <span class="post__time">2h ago ago</span>
+          <span class="post__time">2h ago</span>
           <img
             class="post__menu-icon"
             src="./icons/icon-burger.png"
@@ -205,6 +200,7 @@
         </section>
         <section class="post__content">
           <img
+            class="post__content__image"
             src="https://source.unsplash.com/random/200x200?sig=1"
             alt="Venice"
           />
@@ -212,23 +208,24 @@
         <section class="post__reactions_nav">
           <div class="post__reactions--icons">
             <img src="./icons/icon-like.png" alt="like" />
-            <span>2,245</span>
+            <span class="post__reactions--counter">2,245</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-comment.png" alt="comment" />
-            <span>45</span>
+            <span class="post__reactions--counter">45</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-share.png" alt="share" />
-            <span>124</span>
+            <span class="post__reactions--counter">124</span>
           </div>
           <div class="post__reactions--bookmark">
             <img src="./icons/icon-bookmark.png" alt="bookmark" />
           </div>
         </section>
+        <div class="devider"></div>
       </article>
 
-      <article>
+      <article class="card">
         <section class="post">
           <img
             class="post__profile"
@@ -236,7 +233,7 @@
             alt="profile-picture"
           />
           <h2 class="post__name">Dustin Grant</h2>
-          <span class="post__time">3h ago ago</span>
+          <span class="post__time">3h ago</span>
           <img
             class="post__menu-icon"
             src="./icons/icon-burger.png"
@@ -245,6 +242,7 @@
         </section>
         <section class="post__content">
           <img
+            class="post__content__image"
             src="https://source.unsplash.com/random/200x200?sig=1"
             alt="Drawing"
           />
@@ -252,40 +250,42 @@
         <section class="post__reactions_nav">
           <div class="post__reactions--icons">
             <img src="./icons/icon-like.png" alt="like" />
-            <span>2,245</span>
+            <span class="post__reactions--counter">2,245</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-comment.png" alt="comment" />
-            <span>45</span>
+            <span class="post__reactions--counter">45</span>
           </div>
           <div class="post__reactions--icons">
             <img src="./icons/icon-share.png" alt="share" />
-            <span>124</span>
+            <span class="post__reactions--counter">124</span>
           </div>
           <div class="post__reactions--bookmark">
             <img src="./icons/icon-bookmark.png" alt="bookmark" />
           </div>
         </section>
+        <div class="devider"></div>
       </article>
     </main>
 
     <footer>
       <nav class="navigation">
         <a class="navigation__links" href="home.html"
-          >1<img src="./icons/icon-feed.png" alt="Home"
+          ><img src="./icons/icon-feed.png" alt="Home"
         /></a>
         <a class="navigation__links" href="search.html"
-          >2<img src="./icons/icon-search.png" alt="Search"
+          ><img src="./icons/icon-search.png" alt="Search"
         /></a>
-        <a class="navigation__links" href="newpost.html"
-          >3<img src="./icons/icon-plus.png" alt="Newpost"
+        <a class="navigation__links plusstyle" href="newpost.html"
+          ><img src="./icons/icon-plus.png" alt="Newpost"
         /></a>
         <a class="navigation__links" href="alerts.html"
-          >4<img src="./icons/icon-alert.png" alt="Alerts"
+          ><img src="./icons/icon-alert.png" alt="Alerts"
         /></a>
         <a class="navigation__links" href="profile.html"
-          >5<img src="./icons/icon-profile.png" alt="Profile"
+          ><img src="./icons/icon-profile.png" alt="Profile"
         /></a>
+        <div class="homeindicator"></div>
       </nav>
     </footer>
   </body>

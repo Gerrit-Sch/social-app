@@ -1,11 +1,13 @@
 .header {
   height: 44px;
-  background-color: black;
+  width: 100vw;
   display: flex;
   justify-content: flex-end;
   position: relative;
   align-items: center;
   gap: 10px;
+  padding-right: 20px;
+  font-size: 15px;
 }
 
 .header__fix {
@@ -14,26 +16,10 @@
 
 .header__clock {
   position: absolute;
-  left: 21px;
+  left: 25px;
 }
 
-/* in case we need to determine distance individually
-header__network {
-    position: absolute;
-    left: 336px;
-   
-  }
-
-  header__wifi {
-    position: absolute;
-    left: 316px;
-   
-  }
-
-  header__battery {
-    position: absolute;
-    right: 21px;
-   
-  }
-
- */
+.header__icon {
+  width: 18px;
+  height: 18px;
+}
