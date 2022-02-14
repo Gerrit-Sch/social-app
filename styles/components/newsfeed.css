@@ -1,13 +1,15 @@
 .newsfeed {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   border-bottom: solid #323436 1px;
+  overflow-x: auto;
 }
 
 .newsfeed__element {
   position: relative;
   height: 160px;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .newsfeed__image {
